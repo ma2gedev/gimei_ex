@@ -64,11 +64,9 @@ iex> address.city.katakana          #=> "クロベシ"
 iex> address.town.kanji             #=> "上対馬町五根緒"
 iex> address.town.hiragana          #=> "かみつしままちごねお"
 iex> address.town.katakana          #=> "カミツシママチゴネオ"
-```
 
-省略形
+# 省略形
 
-```iex
 iex> prefecture = GimeiEx.prefecture
 %GimeiEx.Address.Prefecture{hiragana: "おおいたけん", kanji: "大分県",
  katakana: "オオイタケン"}
