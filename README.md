@@ -1,5 +1,7 @@
 # GimeiEx
 
+[![hex.pm version](https://img.shields.io/hexpm/v/gimei_ex.svg)](https://hex.pm/packages/gimei_ex) [![hex.pm downloads](https://img.shields.io/hexpm/dt/gimei_ex.svg)](https://hex.pm/packages/gimei_ex) [![Build Status](https://travis-ci.org/ma2gedev/gimei_ex.svg?branch=master)](https://travis-ci.org/ma2gedev/gimei_ex)
+
 Elixir port of [willnet/gimei](https://github.com/willnet/gimei)
 
 ## Installation
