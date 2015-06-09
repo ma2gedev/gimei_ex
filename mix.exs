@@ -3,8 +3,14 @@ defmodule GimeiEx.Mixfile do
 
   def project do
     [app: :gimei_ex,
-     version: "0.0.1",
+     version: "1.0.0",
      elixir: "~> 1.0",
+     description: "Elixir port of gimei library",
+     package: [
+       contributors: ["Takayuki Matsubara"],
+       licenses: ["MIT"],
+       links: %{"GitHub" => "https://github.com/ma2gedev/gimei_ex"}
+     ],
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
      deps: deps]
@@ -27,6 +33,6 @@ defmodule GimeiEx.Mixfile do
   #
   # Type `mix help deps` for more examples and options
   defp deps do
-    []
+    [{:yamerl, github: "yakaz/yamerl", tag: "v0.3.2-1"}]
   end
 end
