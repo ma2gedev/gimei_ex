@@ -6,7 +6,7 @@ Elixir port of [willnet/gimei](https://github.com/willnet/gimei)
 
 ## Installation
 
-```
+```elixir
 # mix.exs
 defp deps do
   [
@@ -14,8 +14,11 @@ defp deps do
     {:yamerl, github: "yakaz/yamerl", tag: "v0.3.2-1"}
   ]
 end
+```
 
-# and fetch
+and fetch
+
+```bash
 $ mix deps.get
 ```
 
